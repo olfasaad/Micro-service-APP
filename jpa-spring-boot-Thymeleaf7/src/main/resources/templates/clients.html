@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" 
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" 
+	  layout:decorate="~{layout}"	  >
+<head>
+<meta charset="utf-8"/>
+<title>Liste des clients</title>
+<link rel= "stylesheet"
+      type ="text/css"  
+      href= "../static/css/bootstrap.min.css"
+      th:href="@{/css/bootstrap.min.css}"
+      />
+</head>
+<body>
+<div layout:fragment="content">
+
+<div class ="container spacer">
+<table class ="table table-striped">
+  <thead>
+   <tr>
+   <th>ID</th><th>Name</th><th>Email</th>
+  </thead>
+  <tbody>
+	  <tr >
+	    <td>  **** </td>
+	    <td>  **** </td>
+	    <td>  **** </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+
+</div>
+</body>
+</html>
